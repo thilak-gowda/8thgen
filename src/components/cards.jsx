@@ -7,7 +7,7 @@ function Cards(props) {
 
                 <img src={props.image} alt="" className="card-img" />
                 <p className="card-heading">
-                   
+
                     {props.heading}
                 </p>
                 <p className="card-content">
@@ -16,17 +16,18 @@ function Cards(props) {
 
                 <div className="card-hig">
                     <p>
-                        <i class="fa-solid fa-check"></i> <span>  Free Hosting </span>
+                        <i class="fa-solid fa-check"></i> <span>{props.list1}
+                        </span>
                     </p>
                     <p>
-                        <i class="fa-solid fa-check"></i><span> Free Hosting </span>
+                        <i class="fa-solid fa-check"></i><span>  {props.list2}</span>
                     </p>
 
                     <p>
-                        <i class="fa-solid fa-check"></i><span>  Free Hosting </span>
+                        <i class="fa-solid fa-check"></i><span> {props.list3}</span>
                     </p>
                     <p>
-                        <i class="fa-solid fa-check"></i><span> Free Hosting </span>
+                        <i class="fa-solid fa-check"></i><span>{props.list4}</span>
                     </p>
 
                     <button className="card-button">

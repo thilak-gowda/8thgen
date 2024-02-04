@@ -3,29 +3,26 @@ import '../assetes/style/pages.css';
 import { Heading, Heading2 } from '../components/heading';
 import Cards from '../components/cards';
 import Swipeer from '../components/swipersec';
-import Footer from '../components/footer';
 
 function Homepage() {
     return (
         <section>
 
-            <div className="banner container-fluid">
+            <div className="banner container-fluid pt-4">
                 <div className="row banner-sec">
                     <div className="col-lg-6 banner-sec1">
-                        <p className="top-cont">
-                            Trendy Collection’s
-                        </p>
+
                         <p className='main-tagline'>
-                            Building <br />
-                            A Better You
+                            Crafting Digital<br />
+                            Excellence
                         </p>
                         <p className="sub-content ">
-                            Every pleasure is to be welcomed and every pain avoided. and every pain avoided. certain circumstances ands
+                            At EightGen Technologies, we don't just build websites; we craft digital experiences that leave a lasting impression. Elevate your brand, engage your audience, and exceed your online goals with our cutting-edge web development solutions.
                         </p>
                         <div className="mn-btnns">
                             <button className='exp-btn'>Explore More <i class="fa-solid fa-arrow-right-long"></i></button>
 
-                            <button className='ply-btn'>
+                            {/* <button className='ply-btn'>
 
                                 <div className='inner-ply-btnn'>
                                     <span className='outer-circle'>
@@ -34,7 +31,7 @@ function Homepage() {
                                     <span className='me-5'> Play Viedo </span>
                                 </div>
 
-                            </button>
+                            </button> */}
 
                         </div>
                     </div>
@@ -77,63 +74,125 @@ function Homepage() {
                     heading2="CONSULTING SERVICES"
                 />
                 <Heading
-                    heading1="Consulting Costing"
+                    heading1="Our Services"
                     className="text-center"
                 />
 
 
                 <div className="row card-section">
-                    <div className="col-lg-3">
+                    <div className="col-lg-4">
 
                         <Cards
 
                             image="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-icon-1.webp"
 
-                            heading=" Web devlopement"
+                            heading=" Website Development"
 
-                            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquam vel aspernatur excepturi tempore, est ducimus illum eos, nisi velit omnis possimus id iste delectus. Dolorem accusantium exercitationem at distinctio."
+                            content="Unleash the power of your online presence with our cutting-edge website development services. We specialize in creating responsive, user-friendly, and visually stunning websites that leave a lasting impression on your audience."
+
+                            list1="Customized Designs "
+                            list2="Seamless Navigation"
+                            list3=" Mobile Optimization"
+                            list4=" User-Centric Approach  "
 
                         />
 
                     </div>
 
-                    <div className="col-lg-3">
+                    <div className="col-lg-4">
 
                         <Cards
 
                             image="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-icon-1.webp"
 
-                            heading=" Web devlopement"
+                            heading="eCommerce Websites"
 
-                            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquam vel aspernatur excepturi tempore, est ducimus illum eos, nisi velit omnis possimus id iste delectus. Dolorem accusantium exercitationem at distinctio."
+                            content="Step into the world of online retail with our eCommerce website solutions. We don't just build websites; we create digital storefronts that captivate your customers and drive sales."
+
+                            list1="Secure Payment Gateways"
+                            list2="Intuitive Shopping Experience"
+                            list3=" Product Showcase"
+                            list4="Analytics Integration"
 
                         />
 
                     </div>
 
-                    <div className="col-lg-3">
+                    <div className="col-lg-4">
 
                         <Cards
 
                             image="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-icon-1.webp"
 
-                            heading=" Web devlopement"
+                            heading="App Development"
 
-                            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquam vel aspernatur excepturi tempore, est ducimus illum eos, nisi velit omnis possimus id iste delectus. Dolorem accusantium exercitationem at distinctio."
+                            content="Transform your ideas into reality with our expert app development services. Whether it's iOS, Android, or cross-platform, we deliver robust and scalable applications that elevate your brand to new heights."
+
+
+                            list1="SUser-Centric Design"
+                            list2="Agile Development"
+                            list3="App Store Optimization"
+                            list4="Maintenance and Support"
 
                         />
 
                     </div>
 
-                    <div className="col-lg-3">
+                    <div className="col-lg-4">
 
                         <Cards
 
                             image="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-icon-1.webp"
 
-                            heading=" Web devlopement"
+                            heading="Game Development"
 
-                            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, aliquam vel aspernatur excepturi tempore, est ducimus illum eos, nisi velit omnis possimus id iste delectus. Dolorem accusantium exercitationem at distinctio."
+                            content="Immerse your audience in captivating virtual worlds with our game development expertise. From concept to execution, we craft interactive and engaging gaming experiences that resonate with players."
+
+                            list1="Innovative Game Design"
+                            list2="High-Quality Graphics"
+                            list3="Multi-platform Compatibility"
+                            list4="Monetization Strategies"
+
+
+                        />
+
+                    </div>
+
+                    <div className="col-lg-4">
+
+                        <Cards
+
+                            image="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-icon-1.webp"
+
+                            heading="Software Solutions"
+
+                            content="Whether you need a custom software application or want to streamline your business processes, our software solutions are tailored to enhance efficiency and performance."
+
+                            list1="Innovative Game Design"
+                            list2="High-Quality Graphics"
+                            list3="Multi-platform Compatibility"
+                            list4="Monetization Strategies"
+
+
+                        />
+
+                    </div>
+
+                    <div className="col-lg-4">
+
+                        <Cards
+
+                            image="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-icon-1.webp"
+
+                            heading="Digital Marketing"
+
+                            content="Amplify your online presence and reach your target audience effectively through our comprehensive digital marketing strategies. From SEO and social media management to content marketing, we drive measurable results that boost your brand's visibility and engagement."
+
+                            list1="Innovative Game Design"
+                            list2="High-Quality Graphics"
+                            list3="Multi-platform Compatibility"
+                            list4="Monetization Strategies"
+
 
                         />
 
@@ -146,16 +205,15 @@ function Homepage() {
             <div className="banner container-fluid py-5">
                 <div className="row banner-sec">
                     <div className="col-lg-6 banner-sec1">
-                        <p className="top-cont">
-                            Trendy Collection’s
-                        </p>
+
                         <p className='main-tagline2'>
-                            Skillset To Improve
+
+                            Why Choose
                             <br />
-                            Your Company Brand
+                            EightGen Technologies?
                         </p>
                         <p className="sub-content ">
-                            Every pleasure is to be welcomed and every pain avoided. and every pain avoided. certain circumstances ands
+                            ✨ Expertise: A team of seasoned developers with a passion for innovation. <br /> ✨ Customization: Tailored solutions to meet your unique business requirements. <br />✨ Quality: Uncompromising commitment to delivering top-notch websites. <br />✨ Future-Ready: Embrace the latest technologies for sustainable growth.<br /> ✨ Partnership: Collaborate with a dedicated team invested in your success.
                         </p>
                         <div className="mn-btnns">
                             <button className='exp-btn'>Explore More <i class="fa-solid fa-arrow-right-long"></i></button>
@@ -180,7 +238,7 @@ function Homepage() {
                     heading2="CONSULTING SERVICES"
                 />
                 <Heading
-                    heading1="Our Investers"
+                    heading1="In Collaboration With"
                     className="text-center"
                 />
 
@@ -216,18 +274,45 @@ function Homepage() {
             <div className="banner container-fluid py-5">
                 <div className="row banner-sec">
                     <div className="col-lg-6 banner-sec1">
-                        <p className="top-cont">
-                            Trendy Collection’s
-                        </p>
+
                         <p className='main-tagline2'>
-                            Better Ship Faster
-                            <br />
-                            Avoid Unauthorized
+                            Who We Serve ?
+
                         </p>
-                        <p className="sub-content ">
-                            Every pleasure is to be welcomed and every pain avoided. and every pain avoided. certain circumstances ands
+                        <p>
+                            <i class="fa-solid fa-check tick"></i>
+                            <span><b> Startups:</b> Ignite your online presence and stand out from the crowd. </span>
                         </p>
+                        <p>
+                            <i class="fa-solid fa-check tick"></i>
+                            <span><b> SMEs:</b>  Scale your business with a powerful digital foundation.  </span>
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-check tick"></i>
+                            <span><b> Enterprises:</b>  Elevate your brand with bespoke, enterprise-level solutions.</span>
+                        </p>
+
+                        {/* <p>
+                            <i class="fa-solid fa-check tick"></i>
+                            <span><b> Startups:</b> Ignite your online presence and stand out from the crowd. </span>
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-check tick"></i>
+                            <span><b> Startups:</b> Ignite your online presence and stand out from the crowd. </span>
+                        </p> */}
+
+
+
                         <div className="mn-btnns">
+
+
+
+
+
+
+
                             <button className='exp-btn'>Explore More <i class="fa-solid fa-arrow-right-long"></i></button>
 
 
@@ -296,9 +381,7 @@ function Homepage() {
                 </div>
 
             </div>
-            <div className="foter">
-                <Footer />
-            </div>
+
 
         </section>
     )

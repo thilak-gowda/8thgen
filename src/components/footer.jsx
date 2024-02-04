@@ -1,3 +1,4 @@
+import foterlogo from '../assetes/images/logo.png';
 
 
 function Footer() {
@@ -7,7 +8,7 @@ function Footer() {
                 <div className="upper-footer d-lg-flex justify-content-between  flex-row pb-4">
 
                     <div className="logo-sec">
-                        <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2024/01/logo-white.webp" alt="" className="footer" />
+                        <img src={foterlogo} alt="" className="footer-logo" />
                     </div>
 
                     <div className="content2 d-lg-flex justify-content-end align-items-center ">

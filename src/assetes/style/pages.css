@@ -67,7 +67,13 @@
     animation: wavyAnimation 2s linear infinite;
 }
 
-
+.tick {
+    font-size: 20px;
+    background: linear-gradient(180deg, rgb(162, 73, 237) 20%, rgb(97, 49, 232) 100%);
+    color: white;
+    padding: 1%;
+    margin-right: 2%;
+}
 
 @keyframes wavyAnimation {
     0% {
@@ -146,7 +152,7 @@
 .main-tagline2 {
     font-size: 60px;
     font-weight: 900;
-    line-height: 50px;
+    line-height:65px;
 }
 
 .banner-perimg2 {
