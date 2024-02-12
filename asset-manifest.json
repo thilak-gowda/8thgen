@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/8thgen/static/css/main.5cd87672.css",
-    "main.js": "/8thgen/static/js/main.7669e071.js",
+    "main.css": "/8thgen/static/css/main.1bb94ee7.css",
+    "main.js": "/8thgen/static/js/main.f355bd5d.js",
     "static/js/787.72ccbe8f.chunk.js": "/8thgen/static/js/787.72ccbe8f.chunk.js",
     "static/media/logo.png": "/8thgen/static/media/logo.1017afa6cd3eda8c533f.png",
     "static/media/software-application.png": "/8thgen/static/media/software-application.b0a89c7f735c96c61afc.png",
@@ -11,12 +11,12 @@
     "static/media/online-shopping.png": "/8thgen/static/media/online-shopping.19b0da1df72e9a9b6a78.png",
     "static/media/appdev.png": "/8thgen/static/media/appdev.ec2ba861e4e2f4ceba9d.png",
     "index.html": "/8thgen/index.html",
-    "main.5cd87672.css.map": "/8thgen/static/css/main.5cd87672.css.map",
-    "main.7669e071.js.map": "/8thgen/static/js/main.7669e071.js.map",
+    "main.1bb94ee7.css.map": "/8thgen/static/css/main.1bb94ee7.css.map",
+    "main.f355bd5d.js.map": "/8thgen/static/js/main.f355bd5d.js.map",
     "787.72ccbe8f.chunk.js.map": "/8thgen/static/js/787.72ccbe8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cd87672.css",
-    "static/js/main.7669e071.js"
+    "static/css/main.1bb94ee7.css",
+    "static/js/main.f355bd5d.js"
   ]
 }
